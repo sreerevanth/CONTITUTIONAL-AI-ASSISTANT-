@@ -1,0 +1,70 @@
+{
+  "best_global_step": 9,
+  "best_metric": 0.16317661106586456,
+  "best_model_checkpoint": "D:\\constitutional_ai\\reward_model_output\\checkpoint-9",
+  "epoch": 2.0,
+  "eval_steps": 500,
+  "global_step": 18,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 1.0,
+      "eval_loss": 0.16317661106586456,
+      "eval_mae": 0.3181,
+      "eval_pearson_r": -0.5723,
+      "eval_runtime": 6.3354,
+      "eval_samples_per_second": 1.578,
+      "eval_steps_per_second": 0.474,
+      "step": 9
+    },
+    {
+      "epoch": 1.1111111111111112,
+      "grad_norm": 79.17632293701172,
+      "learning_rate": 1.7071067811865477e-05,
+      "loss": 0.44443750381469727,
+      "step": 10
+    },
+    {
+      "epoch": 2.0,
+      "eval_loss": 0.41781264543533325,
+      "eval_mae": 0.5829,
+      "eval_pearson_r": -0.5074,
+      "eval_runtime": 6.2534,
+      "eval_samples_per_second": 1.599,
+      "eval_steps_per_second": 0.48,
+      "step": 18
+    }
+  ],
+  "logging_steps": 10,
+  "max_steps": 27,
+  "num_input_tokens_seen": 0,
+  "num_train_epochs": 3,
+  "save_steps": 500,
+  "stateful_callbacks": {
+    "EarlyStoppingCallback": {
+      "args": {
+        "early_stopping_patience": 2,
+        "early_stopping_threshold": 0.0
+      },
+      "attributes": {
+        "early_stopping_patience_counter": 1
+      }
+    },
+    "TrainerControl": {
+      "args": {
+        "should_epoch_stop": false,
+        "should_evaluate": false,
+        "should_log": false,
+        "should_save": true,
+        "should_training_stop": false
+      },
+      "attributes": {}
+    }
+  },
+  "total_flos": 18813196173312.0,
+  "train_batch_size": 4,
+  "trial_name": null,
+  "trial_params": null
+}

@@ -1,0 +1,37 @@
+{
+  "_remove_final_layer_norm": false,
+  "activation_dropout": 0.0,
+  "activation_function": "relu",
+  "architectures": [
+    "OPTForSequenceClassification"
+  ],
+  "attention_dropout": 0.0,
+  "bos_token_id": 2,
+  "do_layer_norm_before": true,
+  "dropout": 0.1,
+  "dtype": "float32",
+  "enable_bias": true,
+  "eos_token_id": 2,
+  "ffn_dim": 3072,
+  "hidden_size": 768,
+  "id2label": {
+    "0": "LABEL_0"
+  },
+  "init_std": 0.02,
+  "label2id": {
+    "LABEL_0": 0
+  },
+  "layer_norm_elementwise_affine": true,
+  "layerdrop": 0.0,
+  "max_position_embeddings": 2048,
+  "model_type": "opt",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 1,
+  "prefix": "</s>",
+  "tie_word_embeddings": true,
+  "transformers_version": "5.5.4",
+  "use_cache": false,
+  "vocab_size": 50272,
+  "word_embed_proj_dim": 768
+}
