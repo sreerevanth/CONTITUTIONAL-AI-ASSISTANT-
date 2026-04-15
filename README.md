@@ -2,7 +2,8 @@
 ### Multi-Agent Critique · Reward Modeling · DPO Fine-Tuning
 
 ---
-
+<img width="1596" height="759" alt="image" src="https://github.com/user-attachments/assets/9daefc90-264a-4cf8-98cb-c77884838046" />
+---
 ## Architecture Overview
 
 ```
@@ -160,5 +161,5 @@ See bottom of this README for formatted bullets.
 ---
 
 **Designed for extensibility into a full RLHF/RLAIF research pipeline.**
-<img width="1596" height="759" alt="image" src="https://github.com/user-attachments/assets/9daefc90-264a-4cf8-98cb-c77884838046" />
+
 
